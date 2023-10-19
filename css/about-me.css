@@ -1,0 +1,16 @@
+.title{
+    text-align: center;
+  }
+  
+.me{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.about-me{
+    margin: 0 20px;
+  
+    & p{
+        margin-top: 20px;
+        line-height: 30px;
+    }
+}

@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'Gabarito black';
+  src: url(fonts/Gabarito-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Gabarito bold';
+  src: url(fonts/Gabarito-Bold.ttf)
+}
+
+:root{
+  --main-red: linear-gradient(to top,#E60214,#8D0D11 );
+  --dark-gray: #111;
+  --white: #ddd;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Gabarito bold',sans-serif;
+}
+
+h1,h2{
+  font-family: 'Gabarito black';
+  text-shadow: -1px 1px  white;
+}
+
+h2{
+  font-size: 40px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.main{
+  margin-left: 15%;
+  background-color: var(--dark-gray);
+  color: var(--white);
+  font-size: 20px;
+}

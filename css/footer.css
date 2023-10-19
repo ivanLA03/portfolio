@@ -1,0 +1,23 @@
+.contact{
+    background: var(--main-red);
+    & .media{
+        display: flex;
+        justify-content: center;
+
+        & li{
+            margin: 20px 50px;
+            list-style: none;
+
+            & img{
+                height: 50px;
+                width: 50px;
+            }
+        }
+    }
+
+    & .icon-links{
+        font-size: 12px;
+        padding: 7px;
+        font-style: italic;
+    }
+}
