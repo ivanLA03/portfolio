@@ -1,33 +1,33 @@
 .contact{
     background: var(--main-red);
-    & .media{
-        display: flex;
-        justify-content: center;
+}
 
-        & li{
-            margin: 20px 50px;
-            list-style: none;
+.media{
+    display: flex;
+    justify-content: center;
+}
 
-            & a{
-                display: inline-block;
-                transition: 0.25s;
-            }
+.media li{
+    margin: 20px 50px;
+    list-style: none;
+}
 
-            & a:hover{
-                transform: scale(1.25);
-            }
+.media li a{
+    display: inline-block;
+    transition: 0.25s;
+}
 
-            & img{
-                height: 50px;
-                width: 50px;
-            }
+.media li a:hover{
+    transform: scale(1.25);
+}
 
-        }
-    }
+.media li a img{
+    width: 5vw;
+    height: calc(width);
+}
 
-    & .icon-links{
-        font-size: 12px;
-        padding: 7px;
-        font-style: italic;
-    }
+.icon-links{
+    font-size: 12px;
+    padding: 7px;
+    font-style: italic;
 }

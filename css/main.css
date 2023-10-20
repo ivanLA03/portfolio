@@ -1,15 +1,20 @@
 @font-face {
   font-family: 'Gabarito black';
-  src: url(fonts/Gabarito-Black.ttf);
+  src: url(/fonts/Gabarito-Black.ttf);
 }
 
 @font-face {
   font-family: 'Gabarito bold';
-  src: url(fonts/Gabarito-Bold.ttf)
+  src: url(/fonts/Gabarito-Bold.ttf)
+}
+
+@font-face {
+  font-family: "Permanent marker";
+  src: url(/fonts/PermanentMarker-Regular.ttf);
 }
 
 :root{
-  --main-red: linear-gradient(to top,#E60214,#8D0D11 );
+  --main-red: linear-gradient(to top,#E60214,#8D0D11);
   --dark-gray: #111;
   --white: #ddd;
 }
@@ -25,13 +30,13 @@ body{
 }
 
 h1,h2{
-  text-shadow: -1px 1px  white;
+  text-shadow: -1px 1px 0px white;
   margin-bottom: 30px;
 }
 
 h2{
-  font-family: 'Gabarito black';
-  font-size: 40px;
+  font-family: 'Gabarito black', Helvetica, sans-serif;
+  font-size: 6vw;
   text-transform: capitalize;
   text-align: center;
   margin-top: 25px;

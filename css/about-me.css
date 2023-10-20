@@ -1,17 +1,24 @@
 .title{
     text-align: center;
-  }
-  
+}
+
+.title span{
+    color: rgb(196, 5, 5);
+    text-shadow: -1px 1px 0px black;
+}
+
 .me{
-    font-size: 55px;
+    font-size: 8vw;
     text-transform: capitalize;
     padding-top: 30px;
+    font-family: "Permanent marker", Helvetica, sans-serif;
 }
+
 .about-me{
     margin: 0 20px;
-  
-    & p{
-        margin-top: 20px;
-        line-height: 30px;
-    }
+}
+
+.about-me p{
+    margin-top: 20px;
+    line-height: 30px;
 }

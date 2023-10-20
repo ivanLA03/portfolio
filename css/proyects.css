@@ -3,16 +3,17 @@
     display: flex;
     justify-content: space-around;
     margin: 50px 10px;
+}
 
-    & a{
+.proyects-container a img{
+  border-radius: 5px;
+  width: 25vw;
+}
 
-      & img{
-        border-radius: 5px;
-        width: 25vw;
-      }
-    
-      & img:hover{
-        opacity: 0.7;
-      }
-    }
+.proyects-container a img{
+  border-radius: 5px;
+  width: 25vw;
+}
+.proyects-container img:hover{
+  opacity: 0.7;
 }
