@@ -7,18 +7,20 @@
     text-shadow: -1px 1px 0px black;
 }
 
+.title p{
+    font-size: 3vw;
+}
+
 .me{
     font-size: 8vw;
     text-transform: capitalize;
-    padding-top: 30px;
+    padding-top: 2vh;
     font-family: "Permanent marker", Helvetica, sans-serif;
 }
 
 .about-me{
-    margin: 0 20px;
+    margin: 0 2vw;
 }
-
 .about-me p{
-    margin-top: 20px;
-    line-height: 30px;
+    font-size: 3vw;
 }
