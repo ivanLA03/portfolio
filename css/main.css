@@ -25,11 +25,12 @@ body{
 }
 
 h1,h2{
-  font-family: 'Gabarito black';
   text-shadow: -1px 1px  white;
+  margin-bottom: 30px;
 }
 
 h2{
+  font-family: 'Gabarito black';
   font-size: 40px;
   text-transform: capitalize;
   text-align: center;
