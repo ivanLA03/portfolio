@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'Gabarito black';
-  src: url(/fonts/Gabarito-Black.ttf);
+  src: url('/fonts/Gabarito-Black.ttf');
 }
 
 @font-face {
   font-family: 'Gabarito bold';
-  src: url(/fonts/Gabarito-Bold.ttf)
+  src: url('/fonts/Gabarito-Bold.ttf');
 }
 
 @font-face {
   font-family: "Permanent marker";
-  src: url(/fonts/PermanentMarker-Regular.ttf);
+  src: url('/fonts/PermanentMarker-Regular.ttf');
 }
 
 :root{
