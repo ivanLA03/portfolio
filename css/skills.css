@@ -1,12 +1,12 @@
 .skills{
-    margin-top: 2vh;
+    margin-top: 8vh;
 }
 
 .tech{
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-gap: 1vw;
-    margin: 0 10vw;
+    margin: 8vh 10vw;
 }
 
 .tech li{

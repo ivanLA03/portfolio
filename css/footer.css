@@ -8,7 +8,7 @@
 }
 
 .media li{
-    margin: 20px 50px;
+    margin: 3vh 5vw;
     list-style: none;
 }
 
@@ -22,8 +22,8 @@
 }
 
 .media li a img{
-    width: 5vw;
-    height: calc(width);
+    width: 7vw;
+    height: 7vw;
 }
 
 .icon-links{
