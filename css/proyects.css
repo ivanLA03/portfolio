@@ -13,6 +13,7 @@
 }
 
 .proyects-container a img{
-  border-radius: 5px;
+  border-radius: 8px;
   width: 25vw;
+  border: solid 6px rgb(87, 3, 3);
 }
