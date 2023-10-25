@@ -26,4 +26,19 @@
         margin-right: 1vw;
         padding-bottom: 2vh;
     }
+
+    .proyects-container{
+        flex-direction: column;
+    }
+
+    .proyects-container a{
+        width: 90vw;
+        height: 60vw;
+        margin: 5%;
+    }
+
+    .proyects-container a img{
+        height: 100%;
+        width: 100%;
+    }
 }
