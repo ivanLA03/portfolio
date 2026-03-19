@@ -34,10 +34,18 @@
     background-color: #EF4E32;
 }
 
-.sass{
-    background-color: #CB6597;
+.react{
+    background-color: #c9b204;
 }
 
 .vscode{
     background-color: #0079CC;
+}
+
+.mysql{
+    background-color: #ff9100;
+}
+
+.mongodb{
+    background-color: rgb(2, 158, 2);
 }
